@@ -1,0 +1,221 @@
+/* container */
+.new-container{
+	width:1080px;
+	margin:auto;
+}
+.psycho-heading{
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.6;
+	position: relative;
+	margin-bottom: 30px;
+	display: inline-block;
+	font-family: 'GoogleSans-Bold',Arial, Helvetica, sans-serif;
+}
+.psycho-heading:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 8%;
+	margin: 8px auto 0;
+	width: 282px;
+	border-bottom: 3px solid #603BE6;
+}
+.cognitive-para {
+	font-size: 20px;
+	line-height: 1.5;
+}
+.metric-device-type{
+	margin: 73px 0 82px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.metric-device-content2{
+	/* width: 71%; */
+	margin: auto;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #4F4F4F;
+}
+.metric-device-type img + img{
+	margin-left: 89px;
+}
+.game-device-content1 {
+    font-size: 24px;
+    line-height: 1.6;
+    font-style: italic;
+	color: #4F4F4F;
+}
+.measure-content p{
+	font-size: 20px;
+	color: #4F4F4F;
+}
+.measure-content1,.measure-content3{
+    margin-left: 159px;
+}
+.measure-content2{
+    margin-right: 136px;
+}
+.cognitive-function{
+	font-size:20px;
+}
+@media(max-width: 1199px){
+	.metric-device-content2{
+		width: 100%;
+	}
+	.new-container{
+		width:100%;
+	}
+}
+@media (max-width: 1473px) and (min-width: 1200px){
+	.cognitive-para {
+		font-size: 20px;
+		/* width: 52%; */
+	}
+}
+@media(max-width: 767px) and (min-width: 550px){
+	.metric-device-type img + img {
+    	margin-left: 50px;
+	}
+
+}
+@media(max-width:991px){
+	.measure-content1,.measure-content3{
+		margin-left: 0;
+		
+	}
+	.measure-content2{
+		margin-right: 0;
+	
+	}
+	.game-device-content1 {
+		font-size: 22px;
+		line-height: 1.5;
+		
+	}	
+}
+@media(max-width: 767px){
+	.metric-device-content2{
+		width: 100%;
+		font-size: 16px;
+	}
+	.cognitive-para {
+		width: 100%;
+	}
+	.psycho-heading {
+		font-size: 28px;
+	}
+	.psycho-heading:after {
+		left: 9%;
+		width: 240px;
+	}
+	.measure-content p {
+		font-size: 16px;
+		text-align: justify;
+	}
+	.cognitive-para {
+		font-size: 16px;
+	}
+	.metric-device-type {
+		margin: 40px 0 64px;
+	}
+}
+@media(max-width: 549px){
+	.metric-device-type{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    /* -ms-flex-direction: column;
+		        flex-direction: column; */
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+				
+	}
+	.metric-device-type img + img {
+    	margin-left: 10px;
+    	/* margin-top: 40px; */
+	}
+	.metric-device-type img{
+		width: 176px;
+	}
+	
+	}
+	@media(max-width:1199px) and (min-width:992px){
+		.measure-content1,.measure-content3{
+			margin-left: 80px;
+		}
+		.measure-content2{
+			margin-right: 80px;
+		}
+	}
+	@media(max-width: 1199px){
+		.list3{
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-grid-columns: 1fr;
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media(max-width:424px){
+		.game-device-content1 {
+			font-size: 18px;
+		}
+	}
+	@media(max-width: 322px){
+		.psycho-heading {
+			font-size: 27px;
+		}
+		.psycho-heading:after {
+			left: 9%;
+			width: 232px;
+		}
+	}
+	@media(max-width: 374px){
+		.metric-device-type{
+			display: flex;
+			flex-direction: column;
+		}
+		.metric-device-type img + img {
+			margin-left:0;
+			margin-top:20px;
+		}
+		
+	}
+	@media(max-width: 364px){
+		.list-content{
+			display: -ms-grid;
+			display: grid;
+			-ms-grid-columns: 1fr;
+			grid-template-columns: 1fr;
+		}
+		.measure-content-list{
+			margin-bottom: 0;
+		}
+	}
+	@media(max-width:767px){
+		.cognitive-function{
+			font-size:20px;
+		}
+
+	}
+	@media(max-width:300px){
+		.cognitive-function{
+			font-size: 16px;
+		}
+
+	}

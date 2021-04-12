@@ -1,0 +1,270 @@
+@font-face {
+  src: url(Google-Sans-Fonts-master/GoogleSans-Bold.ttf);
+  font-family: sbold;
+}
+@font-face {
+  src: url(Google-Sans-Fonts-master/GoogleSans-Regular.ttf);
+  font-family: smed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: smed;
+  position: relative;
+}
+.navbar-toggler{
+width: 56px;
+}
+h1 {
+  font-family: sbold;
+}
+p {
+  font-family: smed;
+}
+ul.nav-pills {
+  top: 90px;
+  position: fixed;
+}
+div.col-8 div {
+  height: auto;
+}
+div.col-8 div.iwc {
+  height: 800px;
+}
+div.col-8 div.sm {
+  height: auto;
+}
+li.active {
+  border-bottom: 2px solid blue;
+}
+.img {
+  width: 176px;
+  height: 36px;
+}
+div.pt-5 {
+  line-height: 40px;
+}
+div.right {
+  text-align: right;
+  width: 150px;
+}
+
+
+
+
+/*model*/
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 2px 0 12px 0;
+  position: relative;
+}
+
+i.material-icons{
+  padding-left: 150px;
+  font-size: 48px;
+  color: blue;
+}
+div.con{
+width: 73%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 100px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/*screen size*/
+
+@media (min-width: 1400) {
+  ul.nav-pills {
+    height: 500px;
+    overflow: auto;
+    width: auto;
+  }
+  
+}
+/*screen size*/
+
+@media (max-width: 768px){
+  
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}    
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 30%;
+  width: 100%; /* Full width */
+  height: 40%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+div.con{
+  width: 100%;
+  }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: blue;
+  cursor: pointer;
+}
+h3.pl-4{
+  font-size: 18px;
+}
+i.material-icons{
+  padding-left: 100px;
+  font-size: 48px;
+  color: blue;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+}

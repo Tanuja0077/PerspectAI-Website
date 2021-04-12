@@ -1,0 +1,84 @@
+/* container */
+.new-container{
+	width:1080px;
+	margin:auto;
+}
+
+.device-image{
+	margin: 32px 0 100px;
+}
+.device-image img{
+	margin-bottom: 46px;
+}
+.device-image p{
+	/* width: 94%; */
+	text-align: center;
+	margin: auto;
+	font-size: 20px;
+	color: #14142B;
+}
+.device-c h1{
+    font-size: 32px;
+	line-height: 41px;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 32px;
+	font-family: 'GoogleSans-Bold',Arial, Helvetica, sans-serif;
+}
+.device-c h1:after{
+	content: '';
+	display: block;
+	margin: 4px auto 0;
+	position: absolute;
+	left: 7%;
+	width: 268px;
+	border-bottom: 3px solid #603BE6;
+}
+.device-c .para{
+	font-size: 16px;
+}
+
+@media(max-width: 1199px){
+	.device-image p{
+		width: 100%;
+		font-size: 20px;
+	
+	}
+	.new-container{
+		width:100%;
+	}
+}
+@media(max-width: 991px) and (min-width: 768px){
+	.device-image p{
+		width: 100%;
+		font-size: 18px;
+	    text-align: justify;
+	}
+}
+@media(max-width: 767px){
+	.device-image img{
+		width: 80%;
+	}
+	.device-image p{
+		width: 100%;
+		font-size: 16px;
+	    text-align: justify;
+	}
+	.device-c h1{
+		font-size: 28px;
+	}
+	.device-c h1:after{
+		left: 11%;
+		width: 220px;
+	}
+	.remoteai-content {
+    	margin: 50px 0;
+    }
+    .features-list {
+    	margin-top: 40px;
+   }
+   .device-image{
+		  margin: 32px 0 50px;
+	}
+}
